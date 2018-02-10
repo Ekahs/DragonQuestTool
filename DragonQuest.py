@@ -11,7 +11,7 @@ def boss_list():
 
 
 @app.route('/api/GetBossWeak')
-def boss_list():
+def boss_weak():
     return BossWeak.exec()
 
 if __name__ == '__main__':
